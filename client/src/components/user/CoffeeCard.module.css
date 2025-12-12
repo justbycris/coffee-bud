@@ -1,0 +1,66 @@
+.Card {
+    display: flex;
+    border: 2px solid white;
+    flex-direction:  column;
+    justify-content: center;
+    border-radius: 10px;
+    width: 19em;
+    background-color: rgb(238, 231, 223);
+    
+}
+
+.Card_created {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: #753422;
+    border-radius: 8px 8px 0px 0;
+    color: white;
+}
+
+.Card_user {
+    color: #ffede2;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+.Card_main {
+    color: black;
+    padding: 0 15px;
+}
+
+.Card_name {
+    color: #B05B3B;
+    font-size: 2em;
+}
+
+.Card_address {
+    font-size: 1em; 
+    color: #717171;
+    text-decoration: underline;
+}
+
+.Card_stats {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box;
+    color: #1e1e1e;
+}
+
+.product_description {
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.score {
+    font-weight: 600;
+    color: rgb(0, 109, 176);
+}
+

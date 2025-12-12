@@ -1,0 +1,22 @@
+- Use npm run dev to preview in browser client content. 
+- When importing and exporting components, the way you do it matters: 
+    - Check Header.jsx vs. Home.jsx, two different ways
+    - When writing import without. {} it causes for the compiler to look for the default export
+
+
+    To push to GITHUB:
+    On server:
+
+mkdir my_project.git
+cd my_project.git
+git --bare init
+On client:
+
+mkdir my_project
+cd my_project
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin youruser@yourserver.com:/path/to/my_project.git
+git push origin master

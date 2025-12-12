@@ -1,0 +1,25 @@
+
+.header {
+    display: flex;
+    top: 0; 
+    flex-flow: column nowrap ;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: pink;
+    margin: 0;
+    width: 100vw;
+}
+
+.title {
+    font-size: 3em;
+    color:rgb(184, 62, 35);
+    margin-bottom: 10px;
+
+}
+
+.slogan {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFEBC9;
+    margin: 10px 0;
+}
